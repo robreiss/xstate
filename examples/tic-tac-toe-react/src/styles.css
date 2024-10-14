@@ -31,7 +31,3 @@ body,
   font-size: 10vmin;
   background: white;
 }
-
-.tile:before {
-  content: attr(data-player);
-}

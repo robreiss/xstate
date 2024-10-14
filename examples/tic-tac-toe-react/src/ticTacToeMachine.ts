@@ -36,7 +36,7 @@ const context = {
   player: 'x' as Player,
   winner: undefined as Player | undefined,
   players: {
-    x: 'agent' as 'human' | 'agent',
+    x: 'human' as 'human' | 'agent',
     o: 'agent' as 'human' | 'agent'
   },
   agents: {} as {
